@@ -1,0 +1,15 @@
+body{
+    background-color:rgb(236, 195, 132);
+    font-family:monospace;
+    font-size:medium;
+    color:beige
+}
+
+.header{
+    background-image:url(images/IMG_1977-640x474.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+
