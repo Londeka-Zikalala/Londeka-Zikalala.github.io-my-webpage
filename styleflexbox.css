@@ -32,4 +32,6 @@ table, th, tr, td {
     border: 0.25px solid black;
 table-layout: fixed;
 background-color: navajowhite;
+margin-right: auto;
+margin-left: auto;
 }
