@@ -1,15 +1,35 @@
 body{
     background-color:rgb(236, 195, 132);
-    font-family:monospace;
+    font-family: monospace;
     font-size:medium;
-    color:beige
+    color:rgb(71, 60, 39);
 }
-
+h1,h2,h3{
+    color: beige;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .header{
     background-image:url(images/IMG_1977-640x474.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
+    text-align: center;
+
+}
+.img1,.img2,.img3,.img4{
+    display: flex;
+    width:20%;
+    float: right;
+    padding: 5px;
 }
 
-
+clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+table, th, tr, td {
+    border: 0.25px solid black;
+table-layout: fixed;
+background-color: navajowhite;
+}
