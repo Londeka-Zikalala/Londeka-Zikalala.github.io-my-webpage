@@ -1,18 +1,20 @@
 body{
-    background-color:rgb(1, 3, 88);
-    font-family: monospace;
+    background-color:rgb(244, 244, 252);
+    font-family:cursive
     font-size:medium;
-    color:rgb(9, 243, 224);
+    color:rgb(3, 22, 21);
 }
-h1,h2,h3{
-    color:  rgb(197, 235, 253);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h1{
+    margin-top: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2,h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     margin-top: 40px;
-}
-h2{
     text-align: center;
-    text-decoration:double underline rgb(8, 150, 233);
+    text-decoration:wavy;
 }
+
 .header{
     background-image:url(images/IMG_1977-640x474.jpg);
     background-repeat: no-repeat;
@@ -31,27 +33,32 @@ h2{
     margin-top: 15px;
     margin-left:3.5px;
     padding-right: 10px;
+    padding-left: 0px;
     padding-top: 15px;
-    float:right;
 }
 
 .p3,.p4,.p5{
-    word-wrap:normal;
     padding-top: 10px;
     padding-bottom: 15px;
     padding-left:0px; 
     padding-right:2.5px; 
+    overflow-wrap: break-word;
 }
 .p1{
-    padding-top: 40px;
+    padding-top: 40px; 
+    margin-left:0px;
+}
+.p2{
+    text-align: center;
 }
 
 table, th, tr, td {
-    border: 0.25px solid black;
-table-layout: fixed;
-background-color: rgb(62, 27, 214);
+border: 0.5px solid black;
+background-color: whitesmoke;
 margin-right: auto;
 margin-left: auto;
+table-layout:auto ;
+width: 500px;
 }
 .clearfix{
     overflow: auto;
@@ -61,6 +68,7 @@ margin-left: auto;
     display:flex;
     flex-wrap: nowrap;
     flex-direction:row;
+    margin-left:3.5px
 }
 
 
