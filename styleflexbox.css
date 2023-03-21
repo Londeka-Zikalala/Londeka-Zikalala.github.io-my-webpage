@@ -29,16 +29,18 @@ h2{
     height: 250px;
     margin-right: 10px;
     margin-top: 15px;
+    margin-left:3.5px;
     padding-right: 10px;
     padding-top: 15px;
     float:right;
 }
 
 .p3,.p4,.p5{
-    word-wrap: break-word;
+    word-wrap:normal;
     padding-top: 10px;
     padding-bottom: 15px;
-    padding-left:0px;  
+    padding-left:0px; 
+    padding-right:2.5px; 
 }
 .p1{
     padding-top: 40px;
@@ -63,25 +65,35 @@ margin-left: auto;
 
 
 @media(max-width:700px){
-    .p3,.p4,.p5{
-        float:inline-end;
-    }
-   
 .shift{
     display:flex;
     flex-direction:column;
 }
 .h3p{
     display: list-item;
-display: inline-flex
+display:flex;
+flex-direction:row;
 }
-
 .header-contents{
     float:center;
     text-align: center;
     margin: 60px;
 }
-  
+  .img2{
+    margin-right: 35px;
+  }
+  .img3,.img4,.img5{
+    width: 200px;
+    height:150px;
+    margin-right: 2px;
+    margin-top: 100px;
+    margin-bottom: 10px
+    margin-left:10px;
+    float:right;
+}
+.p3,.p4,.p5{
+    padding-top: 10px;
+}
 .clearfix{
     overflow: auto;
 }
