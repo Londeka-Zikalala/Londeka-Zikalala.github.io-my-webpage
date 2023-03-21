@@ -1,6 +1,6 @@
 body{
     background-color:rgb(244, 244, 252);
-    font-family:cursive
+    font-family:cursive;
     font-size:medium;
     color:rgb(3, 22, 21);
 }
@@ -9,7 +9,7 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h2,h3{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 40px;
     text-align: center;
     text-decoration:wavy;
@@ -82,10 +82,14 @@ width: 500px;
     display:flex;
     flex-direction:row;
     }
+    
+    .img1{
+        width:100px;
+        height:120px;
+    }
     .header-contents{
-        float:center;
-        text-align: center;
-        margin: 60px;
+        text-align:center;
+        margin: 100px;
     }
       .img2{
         margin-right: 35px;
@@ -100,7 +104,12 @@ width: 500px;
     }
     .p3,.p4,.p5{
         padding-top: 10px;
+        word-wrap: break-word;
     }
+    table, th, tr, td {
+        width:auto;
+    }
+    
     .clearfix{
         overflow: auto;
     }
