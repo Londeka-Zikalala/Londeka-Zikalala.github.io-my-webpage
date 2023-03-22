@@ -10,9 +10,9 @@ h1{
 }
 h2,h3{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 40px;
+    margin-top: 60px;
     text-align: center;
-    text-decoration:wavy;
+    text-decoration: solid 2px black underline;
 }
 
 .header{
@@ -51,7 +51,6 @@ h2,h3{
     padding-left:0px; 
     padding-right:2.5px; 
     margin-right:3.5px;
-    text-overflow: break-word;
 }
 .p1{
     padding-top: 40px; 
@@ -107,9 +106,11 @@ width: 500px;
         margin-left: 10px;
         margin-top: 100px;
         margin-bottom: 10px;
+        padding:0px;
     }
     .p3,.p4,.p5{
-        padding-top: 10px;
+        margin-top: 10px;
+        padding-top:0px;
         word-wrap: break-word;
     }
     table, th, tr, td {
