@@ -3,18 +3,24 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:medium;
     color:rgb(3, 22, 21);
-    padding: 120px 100px 120px 100px;
+    padding: 90px 100px 90px 100px;
 }
 h1{
     margin-top: 100px;
-    font-family:Arial, Helvetica, sans-serif;
-    color:rgb(215, 227, 230);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(8, 20, 8);
 }
-h2,h3{
+h2{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 60px;
+    margin-top: 40px;
+    margin-bottom: 8px;
     text-align: start;
     text-decoration: solid 2px black underline;
+}
+h4{
+    color: rgb(5, 26, 29);
+     text-align:start;
+     padding-left:80px;
 }
 
 .header{
@@ -28,12 +34,12 @@ h2,h3{
     float:right;
     text-align: end;
 }
-.img1{height: 200px;
+.img1{height: 180px;
      width: 150px;
      padding-inline-start:50px;
-     margin-bottom: 120px; 
+     margin-bottom: 140px; 
      margin-left: 20px; 
-     margin-top:60px;
+     margin-top:40px;
      margin-right: 5px;
 }
 .img2{
@@ -41,11 +47,11 @@ h2,h3{
     height: 350px;
     margin-right: 3.5px;
     padding-left: 20px;
-    padding-top: 40px;
+    padding-top: 25px;
 }
-.img3,.img4,.img5{
-    width: 280px;
-    height: 260px;
+.img4,.img5{
+    width: 150px;
+    height: 170px;
     margin-right: 10px;
     margin-top: 15px;
     margin-left:3.5px;
@@ -54,13 +60,36 @@ h2,h3{
     padding-left: 0px;
     padding-top: 15px;
 }
+.img3{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-left:3.5px;
+    margin-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 0px;
+    padding-top: 15px;
+}
+.p3{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left:0px; 
+    padding-right:0px; 
+    margin-right:0px;
+    margin-bottom: 1px;
+    font-size: smaller;
+    text-overflow: inherit;
+}
 
-.p3,.p4,.p5{
+.p4,.p5{
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left:0px; 
     padding-right:2.5px; 
-    margin-right:3.5px;
+    margin-right:4px;
+    margin-bottom: 0.5px;
+    font-size: smaller;
 }
 .p1{
     padding-top: 140px; 
@@ -79,7 +108,7 @@ table-layout:auto;
 margin-left: 0px;
 margin-right: 40px;
 width: 800px;
-height: 50px;
+height: 35px;
 
 }
 .clearfix{
@@ -93,8 +122,13 @@ height: 50px;
 }
 
 
+@media(max-width:900px){
+    body{
+        padding:0px 0px 0px 0px;
+        margin:0px 0px 0px 0px;
+        font-size: smaller;
+    }
 
-@media(max-width:800px){
     .shift{
         display:flex;
         flex-direction:column;
@@ -105,59 +139,83 @@ height: 50px;
     display:flex;
     flex-direction:row;
     }
+    .h3p2{
+        display:flex;
+        flex-direction:row-reverse;
+    }
+    h3{
+        margin-top:4px;
+        margin-left: 2px;
+    }
+    .header{
+        background: size 100px 90px;
+        background-position: fixed;
+        height:auto;
+        width:auto;
+    }
     
     .header-contents{
         text-align:center;
         float:none;
-        margin-top:100px;
-        margin-right:3.5px ;
+        margin-top:10px;
+        margin-right:4px;
+        margin-bottom:0px
     }
     .img1{
-        height:180px;
-     width: 150px;;
-     margin-bottom: 90px; 
+        height:90px;
+     width: 100px;
+     margin-bottom:120px; 
      margin-left: 10px; 
-     margin-right: 10px;
+     margin-right: 35px;
      margin-top:0px;
      padding-top:0px;
+     padding-right: 2px;
     }
       .img2{
-        margin-bottom:2px;
-        padding-bottom: 0px;
-        padding-top: 10px;
+        margin-top: auto;
+        margin-bottom:auto;
+        padding-bottom: auto;
+        padding-left:1px;
+        width: 200px;
+        height: auto;
       }
       .p1{
         padding-top: 0px;
         padding-bottom:0px;
-        margin-bottom:5px;
+        margin-bottom:2px;
       }
       .p2{
-        text-align:start;
+        text-align:center;
     }
   
       .img3,.img4,.img5{
-        width: 150px;
-        height:125px;
+        width:auto;
+        height:50px;
         margin-right: 2px;
         margin-left: 10px;
-        margin-top: 100px;
-        margin-bottom: 10px;
-        padding:0px;
+        margin-top:auto;
+        margin-bottom:auto;
+        padding:auto;
     }
     .p3,.p4,.p5{
-        margin-top: 10px;
+        margin-top: 0px;
         padding-top:0px;
+        padding-bottom: 0px;
         word-wrap: break-word;
     }
     table, th, tr, td {
-        width:350px;
-        height: 20px;
-        margin-left:0px;
+        table-layout:auto ;
+        width:300px;
+        height:5px;
+        margin: left 40px;
     }
     h4{
         text-align: start;
         padding-left: 0px;
+        float: inline-start;
+        margin-left: 0px;
     }
+
     .clearfix{
         overflow: auto;
     }
