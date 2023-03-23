@@ -124,8 +124,7 @@ height: 35px;
 
 @media(max-width:900px){
     body{
-        padding:0px 0px 0px 0px;
-        margin:0px 0px 0px 0px;
+        padding:10px 10px 10px 10px;
         font-size: smaller;
     }
 
@@ -148,7 +147,7 @@ height: 35px;
         margin-left: 2px;
     }
     .header{
-        background: size 100px 90px;
+        background-size: 100px 90px;
         background-position: fixed;
         height:auto;
         width:auto;
@@ -176,7 +175,7 @@ height: 35px;
         margin-bottom:auto;
         padding-bottom: auto;
         padding-left:1px;
-        width: 200px;
+        width: 260px;
         height: auto;
       }
       .p1{
