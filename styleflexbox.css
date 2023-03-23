@@ -147,7 +147,7 @@ height: 35px;
         margin-left: 2px;
     }
     .header{
-        background-size: 100px 90px;
+        background: size 100px 90px;
         background-position: fixed;
         height:auto;
         width:auto;
