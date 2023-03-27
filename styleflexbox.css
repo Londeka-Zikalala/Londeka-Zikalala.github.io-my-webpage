@@ -122,7 +122,9 @@ height: 35px;
 }
 
 
-@media(max-width:900px){
+
+
+@media(max-width:960px){
     body{
         padding:10px 10px 10px 10px;
         font-size: smaller;
@@ -184,12 +186,12 @@ height: 35px;
         margin-bottom:2px;
       }
       .p2{
-        text-align:center;
+        float: inline-start;
     }
   
       .img3,.img4,.img5{
-        width:auto;
-        height:50px;
+        width:80px;
+        height:100px;
         margin-right: 2px;
         margin-left: 10px;
         margin-top:auto;
@@ -203,15 +205,15 @@ height: 35px;
         word-wrap: break-word;
     }
     table, th, tr, td {
-        table-layout:auto ;
-        width:300px;
-        height:5px;
-        margin: left 40px;
+        table-layout:auto;
+        width: 200px;
+        height:1.5px;
+        float: inline-start;
+        margin-left:40px;
     }
     h4{
-        text-align: start;
+        text-align:start;
         padding-left: 0px;
-        float: inline-start;
         margin-left: 0px;
     }
 
