@@ -121,11 +121,6 @@ height: 35px;
     flex-direction:row;
 }
 
-
-@media only screen(max-width:559px) {
-    
-}
-
 @media(max-width:780px){
     body{
         padding:10px 10px 10px 10px;
