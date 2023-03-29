@@ -5,17 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>basic_website</title>
     <style>
-        h1{
-            font-family: monospace;
-            font-size: larger;
+        .h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: xx-large;
             font-weight: bolder;
-            margin: 5em;
+            margin-top: 5em;
+            margin-bottom:0em;
+            color:black;
+            padding-bottom:2em;
+            display:flex;
+            margin-right:1.5em;
+    
 
         }
+        .h12{
+            margin-right: 1.5em;        }
        
                         
-                            html,
-                body {
+        
+    html,body {
                 height: 100%;
                 width: 100%;
                 margin: 0;
@@ -25,28 +33,52 @@
                 font-size: 100%;
                 }
 
+                .links{
+                    display: flex;
+                    flex-wrap: nowrap;
+                    margin-left: 1em;
+                    margin-right: 15em;
+                    color: beige;
+                    padding-bottom:25em;
+                    padding-top:0em;
+                    margin-top:0em;
+            
+}
+.l1,.l2{
+    margin-left:4em;
+    margin-right:4em;
+}
+                
+
         .container {
-            width: 90%;
+            width: 50%;
             margin-left: auto;
             margin-right: auto;
             margin-top: 0em;
             background-color: azure;
             padding-bottom: 40em;
-            padding-top: 20em;
+            padding-top: 40em;
             padding-left: 40em;
             padding-right: 40em;
-            display: flex;
-}
+        }
     </style>
 
 </head>
 
 <body>
+   
     <main class="container">
-
-        <div><a href="my-webpage.html"><h1>Using  Flexbox</h1> </a></div>
-        <div><a href="my-webpage-grid.html"><h1> Using  Grid</h1> </a></div>
+        <div class="h1"> 
+            <h1 class="h12">Londeka</h1>
+            <h1 class="h11">Zikalala</h1>
+        </div>
         
+        <div class="links">
+            <div class="l1"><a href="my-webpage.html"><h2>Using  Flexbox</h2> </a></div>
+            <div class="l2"><a href="my-webpage-grid.html"><h2> Using  Grid</h2> </a></div>
+            
+            
+        </div>
         
         
     </main>
