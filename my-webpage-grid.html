@@ -5,29 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my-webpage-grid</title>
-    <!--<link rel="stylesheet" type="text/css" href="stylegrid.css">-->
     <link rel="stylesheet" type="text/css" href="simple-grid.css">
 </head>
 
 <body>
 
     <body>
-       
+        
         <div class="container">
-            <div class=" container ">
-                <div class="row"> 
-                    <div class="col-6">
-                        <h1>Londeka Zikalala</h1>
+            <div class="clearfix header">
+                <div class="shift header-contents">
+                    <h1>Londeka Zikalala</h1>
+                    <img class="img1" src="images/Londeka Zikalala.jpg " width="170">
                 </div>
-                <div class="col-6">
-                    <img class="img1" src="images/Londeka Zikalala.jpg">
                 </div>
-                   
-            </div>
             <div class=" stone-town">
-                <h2><em>I want to visit... Stone Town(Zanzibar)</em>:</h2>
+                <h2 class="stone"><em>I want to visit... Stone Town(Zanzibar)</em>:</h2>
                 <div class="stone-t">
-                    <img class="img2" src="images/stone-town-zanzibar-photos.webp">
+                    <img class="img2" src="images/stone-town-zanzibar-photos.webp" width="320">
                     <p class="p1">
                         The the beautiful Stone Town in Zanzibar,
                         is infamous for the beautiful coral stone buildings. The plumish buildings create a warm
@@ -37,7 +32,7 @@
             </div>
 
             <div class=swahili>
-                <h2><em>I want to learn how to speak... Swahili:</em></h2>
+                <h2 class="swahilih"><em>I want to learn how to speak... Swahili:</em></h2>
                 <p class="p2">
                     Swahili is the most spoken language in Africa. It is mostly found in East Africa.
                     I want to move to Tanzania and learning Swahili will help make the transition easy.
@@ -65,25 +60,28 @@
                     </table>
                 </div>
             </div>
-            <div class="row historical">
-                <h2><em>Historical Places in my hometown,</em> Nelspruit (Mpumalanga):</h2>
-                <div class="historic-content">
-                    <div class=" col-4 sudwala">
+
+            <h2 class="Historical"><em>Historical Places in my hometown,</em> Nelspruit (Mpumalanga):</h2>
+
+            <div class="row shift">
+                
+                    <div class="col-4 spacing">
                         <h3>Sudwala Caves</h3>
-                        <div class=nested-grid>
-                            <p class=" p3">
+                        <img class="img3"
+                                src="images/sudwala-caves-tsholofelo_dips-things-to-do-in-white-river1.jpg" width="200">
+                            <p class="p3">
                                 Sudwala caves are one of the oldest known caves in the world.
                                 At 2800 Million years old, they are recently known for being a fortress for
                                 afrikaaners in the mid-1900s and Somquba, Sobhuza I's brother who tried to usurp the
                                 throne.</p>
-                            <img class="img3"
-                                src="images/sudwala-caves-tsholofelo_dips-things-to-do-in-white-river1.jpg" width="180">
-                        </div>
+                            
                     </div>
 
-                    <div class=" col-4 lonecreek">
+                    <div class="col-4 spacin">
                         <h3>Lonecreek Falls</h3>
-                        <div class="nested-grid">
+                        
+                            <img class="img4"
+                                src="images/lone-creek-falls-asien_reise-things-to-do-in-white-river1.jpg" width="200">
                             <P class="p4">
                                 The lonecreek falls is found in the Sabie river and has been declared a national
                                 monument.
@@ -91,25 +89,23 @@
                                 The waterfall and the river were utilised by the community until the inception of the
                                 Land Act of 1913.
                             </P>
-                            <img class="img4"
-                                src="images/lone-creek-falls-asien_reise-things-to-do-in-white-river1.jpg" width="180">
+                            
                         </div>
+        
 
-                    </div>
-
-                    <div class="col-4 mbombela">
+                    <div class="col-4 spaci">
                         <h3>Mbombela stadium</h3>
-                        <div class="nested-grid">
+                        <img class="img5" src="images/nelspruit-Mbombelastadium.jpg" width="200">
                             <p class="p5">
                                 The Mbombela stadium is Mpumalanga's first large capacity stadium. It was launched for
                                 the 2010 Fifa world cup.
                                 The construction of this stadium has brought exciting events in the town, it can even be
                                 utilised for exhibitions and matric rewrite classes.
                             </p>
-                            <img class="img4" src="images/nelspruit-Mbombelastadium.jpg" width="180">
+                           
                         </div>
 
-                    </div>
+                
 
 
                 </div>

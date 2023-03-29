@@ -18,24 +18,32 @@ body {
   top: 0;
   font-size: 100%;
 }
+
 .header{
   background-image:url(images/82-south-africa-cape-town-table-mountain.as.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: fixed;
-  background-blend-mode: screen;
+  margin: 0em;
+  padding-bottom: 0em;
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 3em;
+  
 }
 
+
+
 table, th, tr, td {
-  border: 0.5px solid black;
+  border: 0.1em solid black;
   background-color: whitesmoke;
   table-layout:auto;
-  margin-left: 0px;
-  margin-right: 40px;
-  width: 800px;
-  height: 35px;
-  
+  margin-left: auto;
+  margin-right: auto;
+  width: 23em;
+  height: 2em;
   }
+
 
 /* ROOT FONT STYLES */
 
@@ -108,6 +116,9 @@ p {
 .justify {
   text-align: justify;
 }
+.clearfix{
+  overflow: auto;
+}
 
 /* ==== GRID SYSTEM ==== */
 
@@ -115,6 +126,7 @@ p {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0em;
 }
 
 .row {
@@ -203,10 +215,26 @@ p {
   display: none;
 }
 
-@media only screen and (min-width: 33.75em) {  /* 540px */
+.img4{
+  float: right;
+  width:50%;
+}
+.img3,.img5{
+  float: left;
+  width:50%;
+}
+
+
+@media only screen and (max-width: 33.75em) {  /* 540px */
 
   .container {
     width: 80%;
+  }
+  .img2{
+    float: none;
+  }
+  .swahili, table{
+    align-items:start;
   }
   .img4{
     float: right;
@@ -214,9 +242,59 @@ p {
   .img3,.img5{
     float: left;
   }
+  .header-contents{
+    align-items: center;
+    float:none;
+    margin-top:4em;
+    margin-right:2em;
+    margin-bottom:1em;
+    margin-left:3em;
+}
+
+.stone-town{
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+  padding-bottom: 0.1em;
+}
 }
 
 @media only screen and (min-width: 45em) {  /* 720px */
+   
+  .header-contents{
+    float:right;
+    padding-left: 4em;
+    margin-bottom: 4em;
+    margin-left: 3em;
+    margin-top: 2.5em;
+    padding-right: 0.2em;
+    margin-right:0.2em;
+  }
+  .shift{
+    display:flex;
+    
+}
+.Historical{
+  padding-top: 0.4em;
+  margin-top: 0.5em;
+}
+.swahilih{
+  margin-top:3.5em;
+  padding-top: 1em;
+  padding-bottom: 0.2em;
+  margin-bottom:0.1em;
+}
+  .img3,.img4,.img5{
+    width:50%;
+    float: right;
+  }
+.img2{
+  float: left;
+  padding-right: 1em;
+}
+.p1{
+  padding-left:3em;
+}
+
   .col-1 {
     width: 4.33%;
   }
@@ -231,6 +309,7 @@ p {
 
   .col-4 {
     width: 29.33%;
+  
   }
 
   .col-5 {
@@ -274,5 +353,47 @@ p {
   .container {
     width: 75%;
     max-width: 60rem;
+    background-color:azure;
   }
+  .header-contents{
+    float:right;
+    padding-left: 4em;
+    margin-bottom: 4em;
+    margin-left: 3em;
+    margin-top: 2.5em;
+    padding-right: 0.2em;
+    margin-right:0.2em;
+  }
+  .img2{
+    float: left;
+    padding-right: 1em;
+  }
+  .p1{
+    padding-left:3em;
+  }
+  
+.Historical{
+  padding-top: 0.4em;
+  margin-top: 0.5em;
+}
+.swahilih{
+  margin-top:3.5em;
+  padding-top: 1em;
+  padding-bottom: 0.2em;
+  margin-bottom:0.1em;
+}
+  .img3,.img4,.img5{
+    width:50%;
+    float: right;
+  }
+  .shift{
+    display:flex;
+    
+}
+
+.spacing,.spacin,.spaci{
+  padding:1em;
+  margin:1em;
+}
+
 }
