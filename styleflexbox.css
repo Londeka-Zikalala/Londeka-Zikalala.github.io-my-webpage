@@ -1,27 +1,27 @@
-body{
-    background-color:rgb(247, 247, 247);
+
+ body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+}
+
+
+
+.container{
+    width: 100%;
+    background-color:rgb(255, 255, 255);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:medium;
     color:rgb(3, 22, 21);
-    padding: 90px 100px 90px 100px;
+    align-items: center;
+    padding:auto;
+    margin: auto;
+
 }
-h1{
-    margin-top: 100px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(8, 20, 8);
-}
-h2{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 40px;
-    margin-bottom: 8px;
-    text-align: start;
-    text-decoration: solid 2px black underline;
-}
-h4{
-    color: rgb(5, 26, 29);
-     text-align:start;
-     padding-left:80px;
-}
+
 
 .header{
     background-image:url(images/82-south-africa-cape-town-table-mountain.as.jpg);
@@ -30,191 +30,230 @@ h4{
     background-position: fixed;
     background-blend-mode: screen;
 }
-.header-contents{
-    float:right;
-    text-align: end;
-}
-.img1{height: 180px;
-     width: 150px;
-     padding-inline-start:50px;
-     margin-bottom: 140px; 
-     margin-left: 20px; 
-     margin-top:40px;
-     margin-right: 5px;
-}
-.img2{
-    width: 450px;
-    height: 350px;
-    margin-right: 3.5px;
-    padding-left: 20px;
-    padding-top: 25px;
-}
-.img4,.img5{
-    width: 150px;
-    height: 170px;
-    margin-right: 10px;
-    margin-top: 15px;
-    margin-left:3.5px;
-    margin-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 0px;
-    padding-top: 15px;
-}
-.img3{
-    width: 150px;
-    height: 150px;
-    margin-right: 10px;
-    margin-top: 15px;
-    margin-left:3.5px;
-    margin-bottom: 0px;
-    padding-right: 10px;
-    padding-left: 0px;
-    padding-top: 15px;
-}
-.p3{
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left:0px; 
-    padding-right:0px; 
-    margin-right:0px;
-    margin-bottom: 1px;
-    font-size: smaller;
-    text-overflow: inherit;
-}
 
-.p4,.p5{
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left:0px; 
-    padding-right:2.5px; 
-    margin-right:4px;
-    margin-bottom: 0.5px;
-    font-size: smaller;
-}
-.p1{
-    padding-top: 140px; 
-    padding-bottom:0px;
-    padding-left:3.5px;
-    text-align: start;
-}
-.p2{
-    text-align:justify;
-}
 
 table, th, tr, td {
-border: 0.5px solid black;
-background-color: whitesmoke;
-table-layout:auto;
-margin-left: 0px;
-margin-right: 40px;
-width: 800px;
-height: 35px;
-
-}
-.clearfix{
-    overflow: auto;
-}
-
-.shift{
-    display:flex;
-    flex-wrap: nowrap;
-    flex-direction:row;
-}
-
-@media(max-width:780px){
-    body{
-        padding:10px 10px 10px 10px;
-        font-size: smaller;
-    }
-
-    .shift{
-        display:flex;
-        flex-direction:column;
-        justify-content: center;
-        align-items: center;
-    }
-    .h3p{
-    display:flex;
-    flex-direction:row;
-    }
-    .h3p2{
-        display:flex;
-        flex-direction:row-reverse;
-    }
-    h3{
-        margin-top:4px;
-        margin-left: 2px;
-    }
-    .header{
-        background: size 100px 90px;
-        background-position: fixed;
-        height:auto;
-        width:auto;
-    }
-    
-    .header-contents{
-        text-align:center;
-        float:none;
-        margin-top:10px;
-        margin-right:4px;
-        margin-bottom:0px
-    }
-    .img1{
-        height:90px;
-     width: 100px;
-     margin-bottom:120px; 
-     margin-left: 10px; 
-     margin-right: 35px;
-     margin-top:0px;
-     padding-top:0px;
-     padding-right: 2px;
-    }
-      .img2{
-        margin-top: auto;
-        margin-bottom:auto;
-        padding-bottom: auto;
-        padding-left:1px;
-        width: 260px;
-        height: auto;
-      }
-      .p1{
-        padding-top: 0px;
-        padding-bottom:0px;
-        margin-bottom:2px;
-      }
-      .p2{
-        float: inline-start;
+    border: 0.1em solid black;
+    background-color:white;
+    table-layout:auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23em;
     }
   
-      .img3,.img4,.img5{
-        width:80px;
-        height:100px;
-        margin-right: 2px;
-        margin-left: 10px;
-        margin-top:auto;
-        margin-bottom:auto;
-        padding:auto;
-    }
-    .p3,.p4,.p5{
-        margin-top: 0px;
-        padding-top:0px;
-        padding-bottom: 0px;
-        word-wrap: break-word;
-    }
-    table, th, tr, td {
-        table-layout:auto;
-        width: 200px;
-        height:1.5px;
-        float: inline-start;
-        margin-left:40px;
-    }
-    h4{
-        text-align:start;
-        padding-left: 0px;
-        margin-left: 0px;
-    }
 
-    .clearfix{
-        overflow: auto;
+
+
+
+@media only screen and (max-width: 33.75em) {  /* 540px */
+
+    .container {
+      width: 85%;
+    }
+    .img2{
+      float: none;
+    }
+    .swahili, table{
+      align-items:start;
+    }
+    .img4{
+      float: right;
+      width: 48%;
+    }
+    .img3,.img5{
+      float: left;
+      width: 48%;
+    }
+    .header-contents{
+      float:none;
+      margin-top:4em;
+      margin-right:3em;
+      margin-bottom:1em;
+      margin-left:3em;
+  }
+  h1{text-align: center;}
+  
+  .stone-town{
+    margin-bottom: 0em;
+    margin-top: 0.2em;
+    padding-bottom: 0em;
+  }
+  .swahili{
+    margin-top:1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+    margin-bottom:0.1em;
+  }
+  .shift{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+
+}
+.space{
+    padding-right:0.5em;
+    margin-right:0.5em;
+  }
+  .clearfix{
+    overflow: auto;
+}
+table, th, tr, td {
+    border: 0.1em solid black;
+    background-color:white;
+    table-layout:auto;
+    margin-left: auto;
+    margin-right: auto;
+    width:14em;
+    }
+  
+  }
+
+
+@media only screen and (min-width: 45em) {  /* 720px */
+    .container {
+        width: 80%;
+        max-width: 60rem;
+      }
+.shift{
+    display:flex;
+    justify-content: space-between;
+    flex-direction:row;
+}
+    .header-contents{
+      float:right;
+      padding-left: 2em;
+      margin-bottom: 4em;
+      margin-left: 1.5em;
+      margin-top: 2.5em;
+      padding-right: 0.2em;
+      margin-right:0.2em;
+    }
+    
+  .Historical{
+    padding-top: 0.4em;
+    margin-top: 0.5em;
+  }
+  .img3,.img4{
+    width:50%;
+    float: right;
+    padding-left: 0em;
+    padding-right:0em;
+    margin-left:1em;
+    margin-right:0em;
+  }
+
+  .img5{
+  width:40%;
+  float: right;
+  padding-left:0em;
+  margin: 0em;
+}
+  .img2{
+    width:75%;
+    float: left;
+    padding-right: 1em;
+  }
+  
+  .swahili{
+    margin-top:1.5em;
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+    margin-bottom:0.1em;
+  }
+   
+  
+  .spacing{
+    margin-right:3.5em;
+  }
+  
+  .clearfix{
+    overflow: auto;
+}
+table, th, tr, td {
+    border: 0.1em solid black;
+    background-color:white;
+    table-layout:auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
     }
 }
+    
+
+    @media only screen and (min-width: 60em) { /* 960px */
+        .container {
+          width: 75%;
+          max-width: 60rem;
+        }
+        .header-contents{
+          float:right;
+          padding-left: 4em;
+          margin-bottom: 4em;
+          margin-left: 3em;
+          margin-top: 2.5em;
+          padding-right: 0.2em;
+          margin-right:0.2em;
+        }
+        .img2{
+          float: left;
+          padding-right: 1em;
+        }
+        .p1{
+          padding-left:3em;
+        }
+        
+      .Historical{
+        padding-top: 0.4em;
+        margin-top: 0.5em;
+      }
+      .swahili{
+        margin-top:1.5em;
+        padding-top: 1em;
+        padding-bottom: 0.2em;
+        margin-bottom:0.1em;
+      }
+      .img3,.img4{
+        width:45%;
+        float: right;
+        padding: 0em;
+        margin: 0em;
+       
+      }
+      .img5{
+        width:40%;
+        float: right;
+        padding-left: 3em;
+        margin: 0em;
+      }
+        .shift{
+          display:flex;
+          justify-content: space-between;
+          
+      }
+
+      h1{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color:rgb(8, 20, 8);
+    }
+    h2{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+        text-align: start;
+        text-decoration: solid 2px black underline;
+    }
+    h4{
+        color: rgb(5, 26, 29);
+         text-align:start;
+    }
+      
+      .spacing{
+        padding-right:1em;
+        margin-right:2em;
+      }
+      
+      .clearfix{
+        overflow: auto;
+    }
+      }
+      
