@@ -81,12 +81,12 @@ table, th, tr, td {
     .img4{
       float: right;
       width: 45%;
-      padding: 0.8em;
+      padding-left: 0.8em;
     }
     .img3,.img5{
       float: left;
       width: 43%;
-      padding: 0.6em;
+      padding-right: 0.6em;
     }
     .header-contents{
       float:none;
