@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
 
  body {
   width: 100%;
@@ -9,11 +11,12 @@
 }
 
 
-
 .container{
     width: 100%;
     background-color:rgb(255, 255, 255);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lato', Helvetica, sans-serif;
+    color: #333447;
+    line-height: 1.5;
     font-size:medium;
     color:rgb(3, 22, 21);
     align-items: center;
@@ -32,11 +35,11 @@
 }
 
 h1{
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+ /* font-family:Verdana, Geneva, Tahoma, sans-serif;*/
   color:rgb(8, 20, 8);
 }
 h2{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
   margin-top: 1em;
   margin-bottom: 1.5em;
   text-align: start;
@@ -147,6 +150,7 @@ table, th, tr, td {
     padding-top: 0.4em;
     margin-top: 0.5em;
   }
+ 
   .img3,.img4{
     width:48%;
     float: right;
@@ -157,7 +161,7 @@ table, th, tr, td {
   }
 
   .img5{
-  width:48%;
+  width:50%;
   float: right;
   padding-left:0em;
   margin: 0em;
@@ -219,7 +223,7 @@ table, th, tr, td {
         .img2{
           float: left;
           padding-right: 1em;
-          width: 60%;
+          width: 50%;
         }
         .p1{
           padding-left:3em;
@@ -232,7 +236,7 @@ table, th, tr, td {
         margin-top: 0.5em;
       }
       .swahili{
-        margin-top:11em;
+        margin-top:8em;
         padding-top: 1em;
         padding-bottom: 0.2em;
         margin-bottom:0.1em;
