@@ -163,7 +163,7 @@ table, th, tr, td {
   margin: 0em;
 }
   .img2{
-    width:75%;
+    width:55%;
     float: left;
     padding-right: 1em;
   }
@@ -219,7 +219,7 @@ table, th, tr, td {
         .img2{
           float: left;
           padding-right: 1em;
-          width: 65%;
+          width: 60%;
         }
         .p1{
           padding-left:3em;
