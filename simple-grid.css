@@ -19,19 +19,21 @@ body {
   font-size: 100%;
 }
 
+
+.container{
+  width: 100%;
+  align-items: center;
+  padding:auto;
+  margin: auto;
+
+}
 .header{
   background-image:url(images/82-south-africa-cape-town-table-mountain.as.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: fixed;
-  margin: 0em;
-  padding-bottom: 0em;
-  padding-top: 1em;
-  padding-left: 2em;
-  padding-right: 3em;
-  
+  background-blend-mode: screen;
 }
-
 
 
 table, th, tr, td {
@@ -56,7 +58,7 @@ table, th, tr, td {
 /* TYPOGRAPHY */
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -80,7 +82,7 @@ h6 {
 }
 
 p {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 200;
   line-height: 1.8;
 }
@@ -139,9 +141,7 @@ p {
   margin: 0.5rem 2%;
   min-height: 0.125rem;
 }
-.img3,.img4,.img5{
-  width:200px;
-}
+
 .col-1,
 .col-2,
 .col-3,
@@ -225,30 +225,53 @@ p {
 }
 
 
-@media only screen and (max-width: 33.75em) {  /* 540px */
+@media only screen and (max-width: 47.9em) {  
 
   .container {
-    width: 80%;
+    width: 85%;
   }
-  .img2{
-    float: none;
-  }
+  
   .swahili, table{
     align-items:start;
   }
-  .img4{
-    float: right;
+  .swahili{
+    margin-top:1em;
+    padding-top:0em;
+    padding-bottom: 0.2em;
+    margin-bottom:0.1em;
   }
-  .img3,.img5{
-    float: left;
-  }
+ 
   .header-contents{
-    align-items: center;
     float:none;
     margin-top:4em;
-    margin-right:2em;
+    margin-right:3em;
     margin-bottom:1em;
     margin-left:3em;
+    align-items: center;
+    text-align: center;
+}
+h1{
+  color: black;
+}
+.img1{
+  width: 50%;
+}
+.img2{
+  width: 100%;
+}
+.img4{
+  float: right;
+  width: 45%;
+  padding-left: 0.8em;
+}
+.img3,.img5{
+  float: left;
+  width: 43%;
+  padding-right: 0.6em;
+}
+
+.img5{
+  padding-right:1em;
 }
 
 .stone-town{
@@ -256,10 +279,19 @@ p {
   margin-top: 0.2em;
   padding-bottom: 0.1em;
 }
-}
+}/*
+.shift{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
 
-@media only screen and (min-width: 45em) {  /* 720px */
-   
+}*/
+
+@media only screen and (min-width: 48em) {  
+  .container {
+    width: 90%;
+    max-width: 60rem;
+  }
   .header-contents{
     float:right;
     padding-left: 4em;
@@ -269,6 +301,36 @@ p {
     padding-right: 0.2em;
     margin-right:0.2em;
   }
+  .img1{
+    margin: 1em;
+  }
+  .img3{
+    width:50%;
+    float: right;
+    padding-left: 0.5em;
+    padding-right:0em;
+    margin: 0em;
+  }
+  .img4{
+    width:48%;
+    float: right;
+    padding-left: 0.4em;
+    padding-right:0em;
+    margin: 0em;
+  }
+
+  .img5{
+  width:48%;
+  float: right;
+  padding-left:0.4em;
+  margin: 0em;
+}
+  .img2{
+    width:55%;
+    float: left;
+    padding-right: 1em;
+  }
+  
   .shift{
     display:flex;
     
@@ -283,14 +345,7 @@ p {
   padding-bottom: 0.2em;
   margin-bottom:0.1em;
 }
-  .img3,.img4,.img5{
-    width:50%;
-    float: right;
-  }
-.img2{
-  float: left;
-  padding-right: 1em;
-}
+  
 .p1{
   padding-left:3em;
 }
@@ -308,7 +363,7 @@ p {
   }
 
   .col-4 {
-    width: 29.33%;
+    width: 29.3%;
   
   }
 
@@ -349,9 +404,9 @@ p {
   }
 }
 
-@media only screen and (min-width: 60em) { /* 960px */
+@media only screen and (min-width: 56em) {
   .container {
-    width: 75%;
+    width: 95%;
     max-width: 60rem;
   }
   .header-contents{
@@ -363,10 +418,7 @@ p {
     padding-right: 0.2em;
     margin-right:0.2em;
   }
-  .img2{
-    float: left;
-    padding-right: 1em;
-  }
+  
   .p1{
     padding-left:3em;
   }
@@ -375,24 +427,51 @@ p {
   padding-top: 0.4em;
   margin-top: 0.5em;
 }
-.swahilih{
-  margin-top:3.5em;
+.swahili{
+  margin-top:5em;
   padding-top: 1em;
   padding-bottom: 0.2em;
   margin-bottom:0.1em;
 }
-  .img3,.img4,.img5{
-    width:50%;
-    float: right;
-  }
-  .shift{
-    display:flex;
-    
+.img1{
+  margin: 1em;
 }
+.img2{
+float: left;
+padding-right: 1em;
+width: 50%;
+}
+.img3{
+  width:45%;
+  float: right;
+  padding-left: 0.6em;
+  margin: 0em;
+}
+.img4{
+  width:45%;
+  float: right;
+  padding-left: 0.4em;
+  margin: 0em;
+ 
+}
+.img5{
+  width:40%;
+  float: right;
+  padding-left: 0.8em;
+  margin: 0em;
+}
+ /* shift{
+    display:flex;
+    flex-direction: row;
+    
+}*/
 
 .spacing,.spacin,.spaci{
   padding:1em;
   margin:1em;
 }
+.col-4 {
+  width: 25%;
 
+}
 }
