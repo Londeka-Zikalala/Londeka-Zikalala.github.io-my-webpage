@@ -31,6 +31,22 @@
     background-blend-mode: screen;
 }
 
+h1{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(8, 20, 8);
+}
+h2{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  text-align: start;
+  text-decoration: solid 2px black underline;
+}
+h4{
+  color: rgb(5, 26, 29);
+   text-align:start;
+}
+
 
 table, th, tr, td {
     border: 0.1em solid black;
@@ -40,16 +56,14 @@ table, th, tr, td {
     margin-right: auto;
     width: 23em;
     }
-  
 
-
-
-
-@media only screen and (max-width: 33.75em) {  /* 540px */
+  /*small screens*/
+@media only screen and (max-width: 30em) {  /* 540px */
 
     .container {
       width: 85%;
     }
+    
     .img2{
       float: none;
     }
@@ -70,6 +84,7 @@ table, th, tr, td {
       margin-right:3em;
       margin-bottom:1em;
       margin-left:3em;
+      align-items: center;
   }
   h1{text-align: center;}
   
@@ -90,9 +105,8 @@ table, th, tr, td {
     justify-content: space-between;
 
 }
-.space{
-    padding-right:0.5em;
-    margin-right:0.5em;
+.img5{
+    padding-right:1em;
   }
   .clearfix{
     overflow: auto;
@@ -107,11 +121,11 @@ table, th, tr, td {
     }
   
   }
-
+/*med screens*/
 
 @media only screen and (min-width: 45em) {  /* 720px */
     .container {
-        width: 80%;
+        width: 90%;
         max-width: 60rem;
       }
 .shift{
@@ -134,7 +148,7 @@ table, th, tr, td {
     margin-top: 0.5em;
   }
   .img3,.img4{
-    width:50%;
+    width:48%;
     float: right;
     padding-left: 0em;
     padding-right:0em;
@@ -143,7 +157,7 @@ table, th, tr, td {
   }
 
   .img5{
-  width:40%;
+  width:48%;
   float: right;
   padding-left:0em;
   margin: 0em;
@@ -155,8 +169,8 @@ table, th, tr, td {
   }
   
   .swahili{
-    margin-top:1.5em;
-    padding-top: 1em;
+    margin-top:2em;
+    padding-top:3em;
     padding-bottom: 0.2em;
     margin-bottom:0.1em;
   }
@@ -175,14 +189,14 @@ table, th, tr, td {
     table-layout:auto;
     margin-left: auto;
     margin-right: auto;
-    width: 20em;
+    width: 23em;
     }
 }
-    
+    /*large screens*/
 
-    @media only screen and (min-width: 60em) { /* 960px */
+    @media only screen and (min-width: 56em) { 
         .container {
-          width: 75%;
+          width: 95%;
           max-width: 60rem;
         }
         .header-contents{
@@ -194,12 +208,23 @@ table, th, tr, td {
           padding-right: 0.2em;
           margin-right:0.2em;
         }
+        table, th, tr, td {
+          border: 0.1em solid black;
+          background-color:white;
+          table-layout:auto;
+          margin-left: auto;
+          margin-right: auto;
+          width: 30em;
+          }
         .img2{
           float: left;
           padding-right: 1em;
+          width: 65%;
         }
         .p1{
           padding-left:3em;
+          padding-top: 5em;
+          padding-bottom: 1em;
         }
         
       .Historical{
@@ -207,7 +232,7 @@ table, th, tr, td {
         margin-top: 0.5em;
       }
       .swahili{
-        margin-top:1.5em;
+        margin-top:11em;
         padding-top: 1em;
         padding-bottom: 0.2em;
         margin-bottom:0.1em;
@@ -222,7 +247,7 @@ table, th, tr, td {
       .img5{
         width:40%;
         float: right;
-        padding-left: 3em;
+        padding-left: 1em;
         margin: 0em;
       }
         .shift{
@@ -231,22 +256,7 @@ table, th, tr, td {
           
       }
 
-      h1{
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        color:rgb(8, 20, 8);
-    }
-    h2{
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin-top: 1em;
-        margin-bottom: 1.5em;
-        text-align: start;
-        text-decoration: solid 2px black underline;
-    }
-    h4{
-        color: rgb(5, 26, 29);
-         text-align:start;
-    }
-      
+     
       .spacing{
         padding-right:1em;
         margin-right:2em;
