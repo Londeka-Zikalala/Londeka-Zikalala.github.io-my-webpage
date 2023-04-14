@@ -353,7 +353,6 @@ p {
   .container {
     width: 75%;
     max-width: 60rem;
-    background-color:azure;
   }
   .header-contents{
     float:right;
