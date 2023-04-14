@@ -61,25 +61,32 @@ table, th, tr, td {
     }
 
   /*small screens*/
-@media only screen and (max-width: 39em) {  /* 540px */
+@media only screen and (max-width: 47.9em) {  
 
     .container {
       width: 85%;
     }
     
     .img2{
-      float: none;
+      float:none;
+      margin: auto;
+      
     }
     .swahili, table{
       align-items:start;
     }
+    .img1{
+      width: 50%;
+    }
     .img4{
       float: right;
-      width: 48%;
+      width: 45%;
+      padding: 0.8em;
     }
     .img3,.img5{
       float: left;
-      width: 48%;
+      width: 43%;
+      padding: 0.6em;
     }
     .header-contents{
       float:none;
@@ -126,7 +133,7 @@ table, th, tr, td {
   }
 /*med screens*/
 
-@media only screen and (min-width: 40em) {  /* 720px */
+@media only screen and (min-width: 48em) { 
     .container {
         width: 90%;
         max-width: 60rem;
@@ -150,20 +157,28 @@ table, th, tr, td {
     padding-top: 0.4em;
     margin-top: 0.5em;
   }
- 
-  .img3,.img4{
+  .img1{
+    margin: 1em;
+  }
+  .img3{
+    width:55%;
+    float: right;
+    padding-left: 0.5em;
+    padding-right:0em;
+    margin: 0em;
+  }
+  .img4{
     width:48%;
     float: right;
-    padding-left: 0em;
+    padding-left: 0.6em;
     padding-right:0em;
-    margin-left:1em;
-    margin-right:0em;
+    margin: 0em;
   }
 
   .img5{
-  width:50%;
+  width:48%;
   float: right;
-  padding-left:0em;
+  padding-left:0.4em;
   margin: 0em;
 }
   .img2{
@@ -220,6 +235,9 @@ table, th, tr, td {
           margin-right: auto;
           width: 30em;
           }
+          .img1{
+            margin: 1em;
+          }
         .img2{
           float: left;
           padding-right: 1em;
@@ -244,14 +262,14 @@ table, th, tr, td {
       .img3,.img4{
         width:45%;
         float: right;
-        padding: 0em;
+        padding-left: 0.8em;
         margin: 0em;
        
       }
       .img5{
         width:40%;
         float: right;
-        padding-left: 1em;
+        padding-left: 0.8em;
         margin: 0em;
       }
         .shift{
